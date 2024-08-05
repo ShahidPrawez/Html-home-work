@@ -1,0 +1,24 @@
+h1{
+   color: red; 
+}
+*{
+    color: aqua;
+}
+#a{
+    color:rgb(200,21,50);
+}
+.myclass{
+    color: aqua;
+}
+#mydiv{
+background-color: blue;
+color:black;
+font-size: 20px;
+border: 2px;
+}
+.heading{
+    color: red;
+}
+button{
+    background-color: black;
+}
