@@ -1,7 +1,6 @@
 div{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
+    height: 50px;
+    width: 50px;
 
 }
 @media(max-width: 300px){
@@ -23,7 +22,7 @@ div{
 }
 @media(min-width:600px) and (max-width:700px){
     .media4{
-        background-color: rgb(83, 50, 12);
+        background-color: rgb(110, 226, 197);
     }
 }
 .out{
@@ -31,6 +30,6 @@ div{
     width: 500px;
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(172, 42, 42);
     align-items: center;
 }
