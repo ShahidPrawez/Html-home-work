@@ -1,0 +1,24 @@
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    border: 3px solid yellow;
+    margin-top: 100px ;
+    margin-left: 100px;
+    animation: animate;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    
+
+
+}
+@keyframes animate {
+    from{background-color: red;}
+    to{background-color: blue;}
+    
+}

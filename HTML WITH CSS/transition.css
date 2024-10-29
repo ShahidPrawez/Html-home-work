@@ -1,0 +1,24 @@
+div:hover{
+    background-color:rgb(224, 228, 28);
+    color: aqua;
+    transform:translate(100px);
+    /* transform:skew(45deg); */
+
+}
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    border: 2px solid;
+    transition-property: all;
+    transition-duration: 4s;
+    transition-timing-function: steps(5);
+    transform: rotate(45deg);
+    margin-top: 100px ;
+    margin-left: 100px;
+    transition-delay: 1s;
+}
+div:active{
+    background-color: red;
+}

@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+
+}
+@media(max-width: 300px){
+    .media1{
+        background-color: aqua;
+        font-size: 20px;
+        color: rgb(57, 7, 238);
+    }
+}
+@media(min-width: 300px) and (max-width: 400px){
+    .media2{
+        background-color: yellow;
+    }
+}
+@media(min-width: 400px) and (max-width: 600px){
+    .media3{
+        background-color: red;
+    }
+}
+@media(min-width:600px) and (max-width:700px){
+    .media4{
+        background-color: rgb(83, 50, 12);
+    }
+}
+.out{
+    height:110px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+}

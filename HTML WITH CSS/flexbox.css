@@ -1,0 +1,38 @@
+#flex{
+    height: 200px;
+    width: 600px;
+    background-color: aqua;
+    border: 2px solid blue;
+    display:flex;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    text-align: center;
+    
+}
+#div1{
+   
+   background-color: blueviolet;
+   
+}
+#div2{
+   background-color: rgb(218, 201, 235);
+    
+}
+#div3{
+   background-color: rgb(106, 150, 25);
+
+}
+#div4{
+
+   background-color: rgb(226, 162, 43);
+    
+}
+#div5{
+   background-color: rgb(190, 24, 24);    
+}
+body{
+    text-align: center;
+}
